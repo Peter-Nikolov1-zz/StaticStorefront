@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background: #4D2DCB;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background: #BDB13A; 
+    height: 100%;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    padding: 10px;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 60px;
+    padding-top: 15px;
+}
+
+nav a{
+    font-size: large;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: gray;
+}
+
+input{
+    position: relative;
+    width: 190px;
+    height: 25px;
+}
