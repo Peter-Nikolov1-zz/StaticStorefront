@@ -8,12 +8,14 @@ body{
 .container{
     width: 100%;
     margin: 0 auto;
+    z-index: 2;
 }
 
 header{
     background: #BDB13A; 
     height: 100%;
 }
+
 
 header::after{
     content: '';
@@ -24,6 +26,7 @@ header::after{
 .logo{
     float: left;
     padding: 10px;
+    z-index: 1;
 }
 
 nav{
@@ -56,4 +59,60 @@ input{
     position: relative;
     width: 190px;
     height: 25px;
+}
+
+.sidenav{
+    height: 50%;
+    width: 200px;
+    margin: 5px;
+    position: relative;
+    z-index: 3;
+    top: 0;
+    left: 7px;
+    background-color: lightgray;
+    overflow-x: hidden;
+    padding-top: 10px;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: black;
+}
+
+.middlevideo{
+    width: 340px;
+    height: 250px;
+    float: right;
+    position: relative;
+    top: -269px;
+    right: 20px;
+}
+
+.apparel{
+    width: 50px;
+    margin: 14px;
+    z-index: 3;
+    border-radius: 50%;
+}
+
+.legalFooter{
+    background-color: black;
+    height: 20px;
+    text-align: center;
+    font-size: 1.1em;
+    color: black;
+}
+
+.attractions{
+    color: black;
+    background-color: lightgray;
+    position: relative;
+    border-style: solid;
+    left: -20px;
+    top: -790px;
+    width: 50%;
+    margin: 260px;
+    text-align: center;    
+}
+
+#history{
+    
 }
