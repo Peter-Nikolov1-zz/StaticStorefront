@@ -11,8 +11,15 @@ body{
     z-index: 2;
 }
 
+#header-background{
+    width: 100%;
+    height: 100%;
+    background: url('https://pixabay.com/photos/nature-landscape-field-heaven-2531761/');
+}
+
 header{
     background: #BDB13A; 
+    position: relative;
     height: 100%;
 }
 
@@ -34,7 +41,7 @@ nav{
 }
 
 nav ul{
-    margin: 0;
+    margin: 2;
     padding: 0;
     list-style: none;
 }
@@ -87,18 +94,14 @@ input{
 }
 
 .apparel{
-    width: 50px;
+    height: 50%;
+    width: 200px;
     margin: 14px;
+    padding: 5px;
     z-index: 3;
-    border-radius: 50%;
-}
-
-.legalFooter{
-    background-color: black;
-    height: 20px;
-    text-align: center;
-    font-size: 1.1em;
-    color: black;
+    border-style: solid;
+    border-radius: 5%;
+    background-color: lightgray;
 }
 
 .attractions{
@@ -108,11 +111,50 @@ input{
     border-style: solid;
     left: -20px;
     top: -790px;
-    width: 50%;
+    width: 66%;
     margin: 260px;
     text-align: center;    
+    padding: .5%;  
 }
 
 #history{
-    
+    background-color: lightgray;
+    position: relative;
+    border-style: solid;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    margin: 260px;
+    top: -999px;
+    width: 66.3%;
+    left: -16px;
+}
+
+footer{
+    background-color: #BDB13A;
+    position: relative;
+    text-align: center;
+    top: auto;
+    padding: .5em 1.0em;
+    height: auto;
+}
+
+#legalFooter{
+    background-color: #BDB13A;
+    position: relative;
+    height: 50px;
+    text-align: center;
+    font-size: 1.1em;
+    color: black;
+}
+
+footer ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 1.0em;
+}
+
+footer{
+    content: "| ";
+    padding: 1.0em;
 }
